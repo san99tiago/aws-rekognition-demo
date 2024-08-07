@@ -7,4 +7,5 @@ Example of multiple projects that leverage AWS Rekognition for building top notc
 ## LICENSE
 
 Copyright 2024 Santiago Garcia Arango
+
 Copyright 2024 Santiago Castellanos
