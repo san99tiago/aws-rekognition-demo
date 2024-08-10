@@ -28,7 +28,7 @@ aws-lambda-powertools = { version = "^2.31.0" }
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-pythonpath = ["cdk", "backend"]
+pythonpath = ["cdk", "src"]
 
 [build-system]
 requires = ["poetry-core"]
@@ -39,7 +39,6 @@ black-format = "black ."
 black-check = "black . --check --diff -v"
 test-unit = ["_test_unit", "_coverage_report", "_coverage_html"]
 synth = "cdk synth"
-deploy-backend-dev = "cdk deploy investments-portfolio-tracker-backend-dev --require-approval never"
 _test_unit = "coverage run -m pytest tests/unit"
 _coverage_report = "coverage report"
 _coverage_html = "coverage html"
